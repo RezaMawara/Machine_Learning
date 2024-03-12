@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+  </head>
+  <body>
+    <div>
+      <!-- Input for selecting an image -->
+      <input type="file" id="image-input" accept="image/*" onchange="displaySelectedImage()" />
+      <!-- Display selected image -->
+      <img id="selected-image" alt="" style="max-width: 100%" />
+      <!-- Classification button -->
+      <button onclick="predict()">Classify</button>
+      <!-- Prediction result -->
+      <div id="prediction"></div>
+      <!-- True label -->
+      <div id="true-label"></div>
+    </div>
+
+    <!-- Include TensorFlow.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Your script.js file -->
+    <script src="test2.js"></script>
+  </body>
+</html>

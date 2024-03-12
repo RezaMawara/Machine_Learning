@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="initial-scale=1, width=device-width" />
+
+    <link rel="stylesheet" href="global.css" />
+    <link rel="stylesheet" href="index.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap" />
+  </head>
+  <body>
+    <div class="desktop-1">
+      <img class="background-blob-service-1png-icon" alt="" src="./public/backgroundblobservice1png@2x.png" />
+
+      <div class="div">
+        <div class="h1">
+          <div class="picdetect">PicDetect</div>
+        </div>
+        <div class="project-machine-learning">Project Machine Learning Kelas B Kelompok 4 menggunakan pre-trained model TensorFlow untuk mengklasifikasi gambar dari CIFAR10 dataset.</div>
+      </div>
+      <div class="button">
+        <div class="buttonbefore"></div>
+        <!-- Input for selecting an image -->
+        <label for="image-input" class="pilih-file">pilih file</label>
+        <input type="file" id="image-input" accept="image/*" style="display: none" />
+      </div>
+      <div class="button1">
+        <div class="buttonbefore1"></div>
+        <!-- Classification button -->
+        <div class="pilih-file" id="classify-button">KLASIFIKASI</div>
+      </div>
+      <div class="button3">
+        <div class="buttonbefore3">
+          <img id="selected-image" alt="" style="max-width: 100%" />
+        <div id="prediction"></div>
+        <div id="true-label"></div>
+        </div>
+      </div>
+        
+      <div class="button2">
+        <div class="buttonbefore2">
+          <a href="test.html">
+            <div class="pilih-file">Pengenalan Wajah</div>
+        </a>
+        </div>
+      </div>
+  
+      
+      <!-- Display selected image, prediction, and true label -->
+   
+
+    <!-- Include TensorFlow.js library -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <!-- Your script.js file -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

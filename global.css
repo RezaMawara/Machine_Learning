@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --font-inter: Inter;
+
+  /* font sizes */
+  --font-size-mini: 15px;
+  --font-size-lgi: 19px;
+
+  /* Colors */
+  --color-white: #fff;
+
+  /* Paddings */
+  --padding-12xs: 1px;
+  --padding-8xl: 27px;
+  --padding-mid: 17px;
+  --padding-9xl-5: 28.5px;
+  --padding-lgi: 19px;
+
+  /* Border radiuses */
+  --br-11xs: 2px;
+}
+
+body {
+  margin: 0;
+  line-height: normal;
+  font-family: var(--font-inter);
+  font-size: var(--font-size-mini);
+  color: var(--color-white);
+}
+
+#selectedImagesButton {
+  padding: var(--padding-8xl);
+  font-size: var(--font-size-lgi);
+  border-radius: var(--br-11xs);
+  background-color: var(--color-white);
+  color: black; /* Ganti dengan warna teks yang sesuai */
+  cursor: pointer;
+  /* Tambahkan gaya lain sesuai kebutuhan desain Anda */
+}
